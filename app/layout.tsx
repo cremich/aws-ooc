@@ -1,4 +1,6 @@
+import ConfigureAmplifyClientSide from "@/components/ConfigureAmplify";
 import type { Metadata, Viewport } from "next";
+import "@cloudscape-design/global-styles/index.css";
 
 export const metadata: Metadata = {
   title: "AWS OOC",
@@ -18,7 +20,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <ConfigureAmplifyClientSide />
+        {children}
+      </body>
     </html>
   );
 }

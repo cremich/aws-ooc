@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@aws-amplify/adapter-nextjs": "1.2.13",
     "@aws-amplify/ui-react": "^6.1.13",
     "@cloudscape-design/components": "^3.0.716",
     "@cloudscape-design/global-styles": "^1.0.32",
