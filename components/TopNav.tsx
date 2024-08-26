@@ -12,7 +12,7 @@ export default function TopNav() {
   return (
     <TopNavigation
       identity={{
-        href: "#",
+        href: "/",
         title: "AWS OOC",
         logo: {
           src: "/images/amplify.svg",

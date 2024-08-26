@@ -1,5 +1,5 @@
 {
-  "name": "aws-amplify-gen2",
+  "name": "aws-ooc",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,13 +10,15 @@
   },
   "dependencies": {
     "@aws-amplify/adapter-nextjs": "1.2.13",
+    "@aws-amplify/predictions": "6.1.19",
     "@aws-amplify/ui-react": "^6.1.13",
     "@cloudscape-design/components": "^3.0.716",
     "@cloudscape-design/global-styles": "^1.0.32",
     "aws-amplify": "^6.4.0",
     "next": "14.1.1",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "use-debounce": "10.0.3"
   },
   "devDependencies": {
     "@aws-amplify/backend": "^1.0.4",

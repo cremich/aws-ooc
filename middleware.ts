@@ -19,7 +19,7 @@ export async function middleware(request: NextRequest) {
     },
   });
 
-  if (authenticated || request.nextUrl.pathname === "/") {
+  if (authenticated) {
     return response;
   }
 

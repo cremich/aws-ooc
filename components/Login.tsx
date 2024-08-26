@@ -10,7 +10,7 @@ import "@aws-amplify/ui-react/styles.css";
 function Login({ user }: { user?: AuthUser }) {
   useEffect(() => {
     if (user) {
-      redirect("/home");
+      redirect("/");
     }
   }, [user]);
   return null;

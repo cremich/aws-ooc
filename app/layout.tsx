@@ -1,6 +1,13 @@
 import ConfigureAmplifyClientSide from "@/components/ConfigureAmplify";
 import type { Metadata, Viewport } from "next";
 import "@cloudscape-design/global-styles/index.css";
+import TopNav from "@/components/TopNav";
+import {
+  AppLayout,
+  BreadcrumbGroup,
+  SideNavigation,
+  HelpPanel,
+} from "@cloudscape-design/components";
 
 export const metadata: Metadata = {
   title: "AWS OOC",
@@ -22,6 +29,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <ConfigureAmplifyClientSide />
+        <TopNav />
         {children}
       </body>
     </html>
