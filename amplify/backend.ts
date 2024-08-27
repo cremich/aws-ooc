@@ -3,11 +3,11 @@ import { PolicyStatement } from "aws-cdk-lib/aws-iam";
 import { Stack } from "aws-cdk-lib";
 
 import { auth } from "./auth/resource.js";
-// import { data } from "./data/resource.js";
+import { data } from "./data/resource.js";
 
 const backend = defineBackend({
   auth,
-  // data,
+  data,
 });
 
 // apply the policy giving access to translate text to the authenticated roles
