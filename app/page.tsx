@@ -4,6 +4,7 @@ import { useRouter } from "next/navigation";
 import ContentLayout from "@cloudscape-design/components/content-layout";
 import Grid from "@cloudscape-design/components/grid";
 import Translations from "@/components/service-cards/Translations";
+import Transcriptions from "@/components/service-cards/Transcriptions";
 import {
   AppLayout,
   BreadcrumbGroup,
@@ -34,10 +35,8 @@ export default function App() {
               { colspan: { default: 12, xxs: 4 } },
             ]}
           >
-            <div>
-              <Translations />
-            </div>
-            <div></div>
+            <Translations />
+            <Transcriptions />
           </Grid>
         </ContentLayout>
       }

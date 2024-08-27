@@ -27,9 +27,8 @@ export default function Translations() {
           <Box variant="small">powered by Amazon Translate</Box>
         </SpaceBetween>
         <Box variant="p">
-          Amazon Translate provides fast, affordable, and quality translations
-          for your multilingual needs. We know you’re curious. Jump in and test
-          our Machine Translation API.
+          Fast, affordable, and quality translations for your multilingual
+          needs.
         </Box>
 
         <Button onClick={() => router.push("/translations")}>
